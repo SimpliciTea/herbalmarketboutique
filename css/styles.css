@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,700|Petrona);
+
+body { background-color: #4cacac; background-repeat: repeat-x; background-image: url(../images/BG_header.gif);}
+body, p, div, span, td { font-size:20px;  font-family: 'Petrona', serif; color:#000000;}
+p {padding:8px 0; margin:0;}
+h1 { font-size:28px; font-family: 'Dosis', sans-serif; color:#000000; font-weight:bold; padding:0; margin:0;}
+h2 { font-size:24px; font-family: 'Dosis', sans-serif;}
+.copyBlock {  text-align:left; width:650px; font-size:20px;  font-family: 'Petrona', serif; color:#000000;}
+.btns3{ text-align:left; width:486px;margin:30px auto;}
+.copyLink {text-decoration:none; color:#000000;}
+.copyLink:hover {text-decoration:underline; color:#666666;}
+#ContentWrapper {  width: 100%; border-top:solid 2px #292A16;border-bottom:solid 2px #292A16; background-color: #f9f5c3; }
+#Content {width:960px; margin: 0 auto; position: relative; padding-top:20px;}
+.contentLeft {float:left; margin-right:50px; }
+.contentRight {float:left; width:524px; }
+.contentCentered {text-align:center; width:650px;  margin:0 auto;}
+.mainBody {width:860px; margin:10px 50px;}
+.socialIcon {margin:0 10px 0 0;}
+.clr {clear:both;}
+.findUs {margin-right:26px;}
+.logo {margin-left:50px;}
+
+
+/* TOP NAVIGATION */
+nav {padding-left:25px;}
+nav a {color:#FEFEC9; font-family: 'Dosis', sans-serif; padding:2px 25px; text-decoration:none; font-weight: 600; }
+nav a:hover { text-decoration:underline; color:#ff490a; }
+nav a.active { color:#ff490a; }
+nav a:hover.active { color:#ff490a;text-decoration:none; }
+header {height:176px; width:960px; }
+
+
+
+/* FOOTER styles */
+#FooterWrapper { width:960px; margin: 0 auto; position: relative; }
+footer, footer div {color:#FEFEC9; font-family: 'Dosis', sans-serif; font-weight:300px; font-size:16px;}
+.footerLeft {padding:5px 0 5px 50px; width:300; float:left;}
+.footerRight {padding:20px 0 0 0; width:600px; float:left; text-align:right;}
+footer a {color:#FEFEC9;  text-decoration:none;  }
+footer a:hover {color:#ff490a; text-decoration:underline; font-weight:300; } 
+footer h2 { font-size:20px;	margin:10px 0 2px 0 ; color:#ff490a;}
+.footerBar {border-top:solid 1px #c6c6a2;  width:100px; margin:20px 0;padding:0;}
+.miniMap { border:solid 2px #000000; 
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	-o-border-radius: 5;
+	border-radius: 5px;	}
+.miniMap:hover { border-color: #ff490a; }
+.map, .findUs {text-align: center; font-family: 'Dosis', sans-serif; font-size:18px; text-decoration:none; font-weight: normal;}
+
+
+/* HEADER styles */
+#HeaderWrapper {width:960px; margin: 0 auto; position: relative;}
+
+
+
+/* BIG BUTTONS styles */
+.btnBox { width:140px; height:120px; 
+		  background: #DDE1C9; float:left; margin-right:20px;
+		  font-family: 'Dosis', sans-serif; font-size:24px; text-decoration:none; font-weight: bold;
+		  color: #000000;
+		  padding-top: 26px ;
+		  border: solid #aaaaaa 1px;
+		  text-decoration: none;
+		  text-align: center;
+		  vertical-align: middle;
+		  -webkit-box-shadow:inset 0px 0px 4px 0px #2B2C2C;
+		  -moz-box-shadow:inset 0px 0px 4px 0px #2B2C2C;
+		  -o-box-shadow:inset 0px 0px 4px 0px #2B2C2C;
+		  box-shadow:inset 0px 0px 4px 0px #2B2C2C;
+		  -webkit-border-radius: 15px;
+		  -moz-border-radius: 15px;
+		  -o-border-radius: 15px;
+		  border-radius: 15px;
+		}
+.btnBox:hover {
+		background: #ff490a;
+		text-decoration: none;
+		border: solid #000000 1px;
+		-webkit-box-shadow:inset 0px 0px 4px 0px #666666;
+		-moz-box-shadow:inset 0px 0px 4px 0px #666666;
+		-o-box-shadow:inset 0px 0px 4px 0px #666666;
+		box-shadow:inset 0px 0px 4px 0px #666666;
+		}
+        
+		
+		
+		
+		
+/* SPECIFIC TO THE PRODUCTS US PAGE */
+#Products {width:650px; margin: 0 auto; position: relative; padding-top:10px; text-align:center;}
+#Products img {margin: 15px;  }
+
+/* SPECIFIC TO THE OUR PEOPLE PAGE */
+.peoplePage .contentLeft {float:left;  width:178px;  margin:0; padding:0 20px;}
+.peoplePage .contentRight {float:left; width:640px; margin:0;padding:0;}
+.peoplePage .PeepsContent { width:860px; height: 420px; float:left;  }
+.carouselPeeps, #SlidesPeeps { width:860px; height: 364px; float:left;  }
+
+/* SPECIFIC TO THE OUR CONTACT US PAGE */
+.contactPage .info {text-align:left;}
+.contactPage h1 {font-size:24px; font-family: 'Dosis', sans-serif; color:#ff490a; font-weight:300; padding:0; margin:0;}
+.contactPage .map {text-align: left; font-family: 'Dosis', sans-serif; font-size:16px; text-decoration:none; font-weight: normal;}
+.contactPage .contentLeft  {  margin-right:30px;}
+.contactPage .contentRight {float:left; width:510px; margin:13px 0 0 0;padding:0;}
+.contactPage a {color:#d8e0d3;  text-decoration:none;  } 
+.contactPage a:hover {color:#ff490a;  text-decoration:underline;  }
+.carouselContent {display:none;}
+#ContactPageEvents {text-align:center;}
+#ContactPageHeroCopy {background-color: #4cacac; padding:26px 20px; color:#FEFEC9; font-family: 'Dosis', sans-serif; font-weight:300px; font-size:18px; margin-top:-8px;}
+#ContactPageHero { width:500px;border:solid 3px #000000; 
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+	-o-border-radius: 5;
+	border-radius: 5px;
+	}
+.map img{  -webkit-border-radius: 5;
+		  -moz-border-radius: 5;
+		  -o-border-radius: 5;
+		  border-radius: 5px;
+		  border: solid #000000 3px; }
+.map img:hover {  border-color: #ff490a; }
+
+
+
+
+/* CAROUSEL styles */
+#Carousel { width:960px; height: 364px;   display:block;}
+.arrow { width:45px; float:left;  display:inline; text-align: center; padding-top:150px; padding-bottom:150px; }
+.carouselContent, #Slides { width:860px; height: 364px; float:left;  }
+#goBack, #goNext {cursor:pointer;}
+
+/* ANIMATION FOR CAROUSEL */
+#Slides {
+    overflow:hidden;
+    width:860px;
+#SlidesPeeps {
+    overflow:hidden;
+    width:640px;
+    }
+.carouselContent, .carouselPeeps {
+    -webkit-animation:  FadeIn 3s ease 0 1 ;     
+    -ms-animation:      FadeIn 3s ease 0 1 ;
+    -moz-animation:     FadeIn 3s ease 0 1 ;
+    -o-animation:       FadeIn 3s ease 0 1 ;
+    animation:          FadeIn 3s ease 0 1 ;  }
+
+@-webkit-keyframes flow {
+    0% { -webkit-transform: translateX(700px);}
+    100% {-webkit-transform: translateX(0px); }
+    }
+@-ms-keyframes flow {
+    0% { -webkit-transform: translateX(700px);}
+    100% {-webkit-transform: translateX(0px); }
+    }
+@-moz-keyframes flow {
+    0% { -webkit-transform: translateX(700px);}
+    100% {-webkit-transform: translateX(0px); }
+    }
+@-o-keyframes flow {
+    0% { -webkit-transform: translateX(700px);}
+    100% {-webkit-transform: translateX(0px); }
+    }
+@-keyframes flow {
+    0% { -webkit-transform: translateX(700px);}
+    100% {-webkit-transform: translateX(0px); }
+    }
+	
+	
+@-webkit-keyframes FadeIn {
+    0% { opacity:0;}
+    100% {opacity:1; }
+    }
+@-ms-keyframes FadeIn {
+    0% { opacity:0;}
+    100% {opacity:1; }
+    }
+@-moz-keyframes FadeIn {
+    0% { opacity:0;}
+    100% {opacity:1; }
+    }
+@-o-keyframes FadeIn {
+    0% { opacity:0;}
+    100% {opacity:1; }
+    }
+@-keyframes FadeIn {
+    0% { opacity:0;}
+    100% {opacity:1; }
+    }
